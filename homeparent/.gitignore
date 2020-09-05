@@ -1,0 +1,43 @@
+# Idea #
+.idea/
+*.iml
+*.iws
+*.mp4
+
+# vscode ##
+
+.vscode/
+
+# Eclipse #
+.settings/
+.classpath
+.mvn
+.project
+.class
+# jrebel #
+out
+logs
+# vscode
+.vscode
+
+# vi
+*.swp
+*.un~
+*.swn
+*.swo
+*.swl
+*.swm
+*.swk
+
+*gradle/
+*build/
+*bin/
+*target/
+
+*.fo
+*.hprof
+mvnw
+*.cmd
+
+*.log
+/pdf/

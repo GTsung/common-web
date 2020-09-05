@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: HOME_REGISTER
+  security:
+    user:
+      name: kao
+      password: kao
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka/
