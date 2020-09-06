@@ -21,6 +21,7 @@
     <!--子模块-->
     <modules>
         <module>register</module>
+        <module>backend</module>
     </modules>
 
     <properties>

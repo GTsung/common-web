@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: HOME_BACKEND
+
+server:
+  port: 8861
+  servlet:
+    context-path: /busiflow
