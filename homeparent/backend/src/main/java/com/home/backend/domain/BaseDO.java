@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Id;
 import java.util.Date;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

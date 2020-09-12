@@ -4,10 +4,6 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public enum DelFlagEnum {
 

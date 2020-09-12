@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Table;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Data
 @Builder
 @Table(name = "sys_user")

@@ -6,10 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Configuration
 public class DruidConfig {
 

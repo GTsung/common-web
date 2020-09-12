@@ -8,10 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Service
 public class UserServiceImpl implements UserService {
 

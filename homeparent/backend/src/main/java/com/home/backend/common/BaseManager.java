@@ -15,10 +15,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Slf4j
 public class BaseManager<T extends BaseDO> {
 

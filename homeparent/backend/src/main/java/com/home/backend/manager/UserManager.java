@@ -10,10 +10,6 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
-/**
- * @author guxc
- * @date 2020/9/6
- */
 @Component
 public class UserManager extends BaseManager<SysUserDO> {
 
