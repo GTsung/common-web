@@ -7,8 +7,9 @@ import lombok.Getter;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public enum ResCodeEnum {
 
-    SUCCESS("200", "成功"),
-    ERROR("500", "内部错误"),
+    SUCCESS("20000", "成功"),
+    ERROR("50000", "内部错误"),
+    ERROR_50001("50001", "其他错误"),
     ;
 
     @Getter
