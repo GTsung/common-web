@@ -28,4 +28,15 @@
         </dependency>
 
     </dependencies>
+
+    <!-- dependencyManagement标签子项目不会显示继承，
+    如果继承则子项目重新引入依赖，但不再指定版本号 -->
+    <!--<dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId></groupId>
+                <artifactId></artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>-->
 </project>
