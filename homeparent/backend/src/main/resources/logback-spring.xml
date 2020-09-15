@@ -73,7 +73,8 @@
 		<appender-ref ref="FILE_ERROR" />
 	</root>
 
-	<logger name="com.home.backend.dao" level="debug" additivity="false">
+	<!--配置文件已经配置mybatis控制台的日志打印-->
+	<!--<logger name="com.home.backend.dao" level="debug" additivity="false">
 		<appender-ref ref="STDOUT" />
-	</logger>
+	</logger>-->
 </configuration>
