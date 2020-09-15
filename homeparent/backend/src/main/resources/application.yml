@@ -23,6 +23,9 @@ spring:
 
 # mybatis
 mybatis:
+  configuration:
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
   type-aliases-package: com.home.backend.domain
   mapper-locations: classpath:dao/*.xml
 pagehelper:
@@ -31,3 +34,6 @@ pagehelper:
   support-methods-arguments: true
   params: count=countSql
 
+# log
+logging:
+  config: classpath:logback-spring.xml

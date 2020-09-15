@@ -30,6 +30,7 @@ public class UserController {
     @GetMapping("/list")
     @ApiOperation("用户列表页")
     public Object getUser() {
+        log.info("userList");
         return userService.getAll();
     }
 }
