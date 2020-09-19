@@ -8,6 +8,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 /**
  * @author GTsung
  * @date 2020/9/6
@@ -23,7 +25,7 @@ public class UserController {
 
     @PostMapping("/save")
     @ApiOperation(value = "添加用户", notes = "add", tags = {"userTag"})
-    public Object saveUser(@RequestBody SysUserDO userDO) {
+    public Object saveUser(@Valid @RequestBody SysUserDO userDO) {
         return userService.save(userDO);
     }
 

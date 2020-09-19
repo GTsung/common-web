@@ -5,6 +5,9 @@ import com.home.backend.manager.UserManager;
 import com.home.backend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,8 +18,9 @@ public class UserServiceImpl implements UserService {
     private UserManager userManager;
 
     @Override
+    @Transactional(rollbackFor = Exception.class, isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED)
     public int save(SysUserDO userDO) {
-        return userManager.save(userDO);
+         return userManager.save(userDO);
     }
 
     @Override
