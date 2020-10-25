@@ -1,4 +1,4 @@
-package com.home.backend.domain;
+package com.home.common.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class BaseDO {
     private Long id;
 
     /**
-     * @see com.home.backend.enums.DelFlagEnum
+     * @see com.home.common.enums.DelFlagEnum
      */
     private Integer delFlag;
 

@@ -1,4 +1,4 @@
-package com.home.backend.enums;
+package com.home.common.enums;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

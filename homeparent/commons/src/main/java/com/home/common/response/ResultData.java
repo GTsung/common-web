@@ -1,6 +1,6 @@
-package com.home.backend.response;
+package com.home.common.response;
 
-import com.home.backend.enums.ResCodeEnum;
+import com.home.common.enums.ResCodeEnum;
 import lombok.Data;
 
 /**

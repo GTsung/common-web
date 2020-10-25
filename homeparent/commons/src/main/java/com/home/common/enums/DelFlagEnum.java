@@ -1,19 +1,20 @@
-package com.home.backend.enums;
+package com.home.common.enums;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public enum LogLevelEnum {
+public enum DelFlagEnum {
 
-    INFO("INFO", "level info"),
-    ERROR("ERROR", "level error"),
+    PERSISTENT(0, "未删除"),
+    DELETED(1, "已删除"),
     ;
 
     @Getter
-    private String code;
+    private Integer code;
 
     @Getter
     private String desc;
+
 }

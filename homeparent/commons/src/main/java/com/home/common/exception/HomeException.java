@@ -1,12 +1,12 @@
-package com.home.backend.exception;
+package com.home.common.exception;
 
-import com.home.backend.enums.LogLevelEnum;
-import com.home.backend.enums.ResCodeEnum;
+import com.home.common.enums.LogLevelEnum;
+import com.home.common.enums.ResCodeEnum;
 import lombok.Getter;
 
 /**
- * @author guxc
- * @date 2020/9/6
+ * @author GTsung
+ * @date 2020/10/24
  */
 public class HomeException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.home.backend.util;
+package com.home.common.util;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

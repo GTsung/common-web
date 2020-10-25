@@ -1,6 +1,6 @@
-package com.home.backend.common;
+package com.home.common.dao;
 
-import com.home.backend.exception.HomeException;
+import com.home.common.exception.HomeException;
 import tk.mybatis.mapper.common.ConditionMapper;
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;

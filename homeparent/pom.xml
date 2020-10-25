@@ -22,6 +22,7 @@
     <modules>
         <module>register</module>
         <module>backend</module>
+        <module>commons</module>
     </modules>
 
     <properties>

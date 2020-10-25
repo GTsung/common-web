@@ -1,8 +1,8 @@
 package com.home.backend.util;
 
-import com.home.backend.enums.ResCodeEnum;
-import com.home.backend.exception.HomeException;
-import com.home.backend.response.ResultData;
+import com.home.common.enums.ResCodeEnum;
+import com.home.common.exception.HomeException;
+import com.home.common.response.ResultData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;

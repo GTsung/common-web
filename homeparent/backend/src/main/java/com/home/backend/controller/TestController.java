@@ -1,6 +1,6 @@
 package com.home.backend.controller;
 
-import com.home.backend.exception.HomeException;
+import com.home.common.exception.HomeException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;

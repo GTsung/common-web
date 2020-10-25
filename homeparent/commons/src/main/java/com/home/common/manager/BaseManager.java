@@ -1,10 +1,10 @@
-package com.home.backend.common;
+package com.home.common.manager;
 
-import com.home.backend.common.BaseDao;
-import com.home.backend.domain.BaseDO;
-import com.home.backend.enums.DelFlagEnum;
-import com.home.backend.util.AssertUtil;
-import com.home.backend.util.UserUtil;
+import com.home.common.dao.BaseDao;
+import com.home.common.domain.BaseDO;
+import com.home.common.enums.DelFlagEnum;
+import com.home.common.util.AssertUtil;
+import com.home.common.util.UserUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
